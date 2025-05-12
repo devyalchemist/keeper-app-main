@@ -1,7 +1,7 @@
 {
 	"name": "keeper-part-3-starting",
 	"private": true,
-	"homepage": "https://devyalchemist.github.io/keeper-app-main/",
+	//"homepage": "https://devyalchemist.github.io/keeper-app-main/",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
@@ -9,8 +9,8 @@
 		"build": "vite build",
 		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist"
+		//"predeploy": "npm run build",
+		//"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"@emotion/react": "^11.14.0",
